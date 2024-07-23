@@ -3,127 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AS Esports</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-        }
-        nav a {
-            color: #fff;
-            padding: 15px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background: #555;
-        }
-        .container {
-            padding: 20px;
-        }
-        .section {
-            margin: 20px 0;
-        }
-        .section h2 {
-            color: #333;
-        }
-        .products {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .product {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin: 10px;
-            padding: 15px;
-            width: calc(25% - 40px);
-            box-sizing: border-box;
-        }
-        .product img {
-            max-width: 100%;
-        }
-    </style>
+    <title>Sports Equipment Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>AOS Esports Equipment</h1>
+        <h1>Welcome to Our Sports Equipment Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#cricket">Cricket</a></li>
+                <li><a href="#football">Football</a></li>
+                <li><a href="#badminton">Badminton</a></li>
+                <li><a href="#basketball">Basketball</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#cricket">Cricket</a>
-        <a href="#football">Football</a>
-        <a href="#badminton">Badminton</a>
-        <a href="#basketball">Basketball</a>
-    </nav>
-    <div class="container">
-        <div id="cricket" class="section">
+    <main>
+        <section id="cricket">
             <h2>Cricket Equipment</h2>
-            <div class="products">
-                <div class="product">
-                    <img src="cricket_bat.jpg" alt="Cricket Bat">
-                    <p>High-quality cricket bat.</p>
-                </div>
-                <div class="product">
-                    <img src="cricket_ball.jpg" alt="Cricket Ball">
-                    <p>Durable cricket ball.</p>
-                </div>
-                <!-- Add more cricket products here -->
-            </div>
-        </div>
-        <div id="football" class="section">
+            <img src="images/cricket.jpg" alt="Cricket Equipment">
+            <p>Explore our range of cricket bats, balls, pads, and more.</p>
+        </section>
+        <section id="football">
             <h2>Football Equipment</h2>
-            <div class="products">
-                <div class="product">
-                    <img src="football.jpg" alt="Football">
-                    <p>Professional football.</p>
-                </div>
-                <div class="product">
-                    <img src="football_boots.jpg" alt="Football Boots">
-                    <p>Comfortable football boots.</p>
-                </div>
-                <!-- Add more football products here -->
-            </div>
-        </div>
-        <div id="badminton" class="section">
+            <img src="images/football.jpg" alt="Football Equipment">
+            <p>Find the best footballs, boots, and gear.</p>
+        </section>
+        <section id="badminton">
             <h2>Badminton Equipment</h2>
-            <div class="products">
-                <div class="product">
-                    <img src="badminton_racket.jpg" alt="Badminton Racket">
-                    <p>Lightweight badminton racket.</p>
-                </div>
-                <div class="product">
-                    <img src="shuttlecock.jpg" alt="Shuttlecock">
-                    <p>High-speed shuttlecock.</p>
-                </div>
-                <!-- Add more badminton products here -->
-            </div>
-        </div>
-        <div id="basketball" class="section">
+            <img src="images/badminton.jpg" alt="Badminton Equipment">
+            <p>Discover our collection of badminton rackets, shuttlecocks, and more.</p>
+        </section>
+        <section id="basketball">
             <h2>Basketball Equipment</h2>
-            <div class="products">
-                <div class="product">
-                    <img src="basketball.jpg" alt="Basketball">
-                    <p>Durable basketball.</p>
-                </div>
-                <div class="product">
-                    <img src="basketball_hoop.jpg" alt="Basketball Hoop">
-                    <p>Sturdy basketball hoop.</p>
-                </div>
-                <!-- Add more basketball products here -->
-            </div>
-        </div>
-    </div>
+            <img src="images/basketball.jpg" alt="Basketball Equipment">
+            <p>Check out our basketballs, hoops, and accessories.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sports Equipment Store</p>
+    </footer>
 </body>
 </html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #007bff;
+    color: white;
+}
+/your-website-folder
+    /images
+        cricket.jpg
+        football.jpg
+        badminton.jpg
+        basketball.jpg
+    index.html
+    styles.css
