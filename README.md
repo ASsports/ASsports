@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Sports Equipment Store</h1>
+        <h1>Welcome to Our AS store Store</h1>
         <nav>
             <ul>
                 <li><a href="#cricket">Cricket</a></li>
