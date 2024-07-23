@@ -12,7 +12,8 @@
         <nav>
             <ul>
                 <li><a href="#cricket">Cricket</a></li>
-                <li><a href="#football">Football</a></li>
+                 <li><a href="#cricket">Cricket shoes</a></li>
+                 <li><a href="#football">Football</a></li>
                 <li><a href="#badminton">Badminton</a></li>
                 <li><a href="#basketball">Basketball</a></li>
             </ul>
